@@ -1,0 +1,73 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background: url("images/wall-texture.jpg") fixed;
+	background-size: cover;
+	font-family:Montserrat;
+	color:white;
+	line-height:30px;
+	}
+
+header{
+	width:800px;
+	height:250px;
+	margin:24px auto 0px auto;
+	border:1px #ddd solid;
+}
+
+a:link{
+    color: white;
+    text-decoration:none;
+    }
+
+a:visited{
+	color:white;
+	text-decoration:none;
+	}
+
+a:hover{
+	opacity: 0.5;
+	text-decoration:none;
+	}
+
+#centerID{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.centerID{
+	text-align:center;
+}
+
+section{
+	position:relative;
+	top: 55px;
+	right: 50%;
+	left:50%;
+}
+
+article{
+	position:relative;
+	right:400px;
+}
+
+.james{
+	float:left;
+	margin-right:150px;
+	font-size:50px;
+	padding-top:10px;
+}
+
+.left_column{
+	float:left;
+	margin-right:70px;
+}
+
+.footer{
+	position:relative;
+	top:150px;
+	padding-bottom:50px;
+}

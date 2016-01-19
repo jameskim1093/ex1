@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+	}
+
+a:link{
+    color:white;
+    text-decoration:none;
+    }
+
+a:visited{
+	color:white;
+	text-decoration:none;
+	}
+
+a:hover{
+	opacity: 0.5;
+	font-style: italic;
+	text-decoration:none;
+	}
+	
+body{
+	background: url("images/wall-texture.jpg") fixed;
+	background-size: cover;
+	}
+	
+nav{
+	width: 1500px;
+	font-family:'Montserrat', sans-serif;
+	letter-spacing: 5px;
+	font-size:11px;
+	position:absolute;
+	background-color:black;
+	padding-right:100%;
+	padding-left:38px;
+	padding-bottom:10px;
+	}
+	
+nav li{
+	list-style-type: none;
+	float:left;
+	margin-top: 10px;
+	margin-left: 70px;
+	}
+
+p{
+	font-weight:normal;
+	font-size:13px;
+	line-height:20px;
+}
+	
+#blog{
+	font-family: 'Montserrat', sans-serif;
+	font-size:40px;
+	color: white;
+	position:absolute;
+	top:100px;
+	left:105px;
+	}
+
+#blog_entry{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	color:white;
+	left:107px;
+	width:500px;
+	top: 225px;
+	padding-bottom:100px;
+	}
+	
+#facebook{
+	position:absolute;
+	left: 800px;
+	top:230px;
+	}
