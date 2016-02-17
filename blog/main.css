@@ -69,6 +69,19 @@ p{
 	}
 	
 #facebook{
+	float:right;
+    position:absolute;
+	left: 800px;
+	top:1080px;
+	}
+
+#coolors{
+	position:absolute;
+	left: 800px;
+	top:570px;
+	}
+
+#ex3{
 	position:absolute;
 	left: 800px;
 	top:230px;
