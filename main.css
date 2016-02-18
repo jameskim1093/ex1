@@ -33,15 +33,6 @@ a:hover{
 	text-decoration:none;
 	}
 
-#centerID{
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.centerID{
-	text-align:center;
-}
-
 section{
 	position:relative;
 	top: 55px;
@@ -66,8 +57,30 @@ article{
 	margin-right:70px;
 }
 
-.footer{
-	position:relative;
-	top:150px;
-	padding-bottom:50px;
+.right_column{
+    float:left;
+}
+
+#validator ul{
+  position: fixed;
+  bottom:0;
+  width:100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#validator li {
+    float: left;
+}
+
+#validator li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10 px;
+  margin: 15px;
+  text-decoration: none;
 }
