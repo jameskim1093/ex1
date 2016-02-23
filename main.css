@@ -59,6 +59,7 @@ article{
 
 .right_column{
     float:left;
+    padding-bottom: 200px;
 }
 
 #validator ul{
